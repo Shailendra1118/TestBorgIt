@@ -48,9 +48,7 @@ object BorgItMain {
     //validate(Some("Basic cjd1SXZMSjk3Sjp1T1QyWG5yQThFMHIxbTBpTVR6Vg=="))
 
     // symbols
-
-    val input = "https://mpa.userqa.apphelp.tools/mpa/subscription/test/apphelp-oauth2-test-product?eventUrl=https%3A%2F%2Fapphelpdemo.test.devappdirect.me%2Fapi%2Fintegration%2Fv1%2Fevents%2F93c70b82-42a0-4c88-8ce8-55d505b3006d"
-    val input1 = "https://testcoxcomm.appdirect.com/api/integration/v1/events/69a42823-dd94-4d7e-bd67-b9f9a528aad1"
+    val input1 = "https://testcoxcomm.mydomain.com/api/integration/v1/events/69a42823-dd94-4d7e-bd67-b9f9a528aad1"
     testRegEx(input1);
 
   }
